@@ -82,9 +82,9 @@ console.log(Boolean(1)); //true
 console.log(Boolean(-1)); //true
 console.log(Boolean(0)); //false
 console.log(Boolean(NaN)); //false
-console.log(Boolean("a")); //false
+console.log(Boolean("a")); //trur
 console.log(Boolean("")); //false
-console.log(Boolean(undefined));
+console.log(Boolean(undefined));//false
 
 //undefined
 console.log(name1);//undefined
@@ -98,3 +98,28 @@ console.log(typeof myname);
 let value = null;
 console.log(value);
 console.log(typeof value);
+
+//object
+const franchise={
+    teamName: "CSK", 
+    teamWorth: "75Cr", 
+    CaptainName: "Dhoni",
+    playersCount:25 
+};
+
+console.log(franchise.CaptainName);
+console.log(franchise["teamName"]);
+
+for (let key in franchise) {
+    console.log(franchise[key]);
+}
+
+// for (const x of franchise) {
+//     console.log(franchise[x]);
+// } not iterable
+
+
+//symbol()
+
+const mySymbol = Symbol(100);
+console.log(mySymbol);
