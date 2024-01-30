@@ -1,9 +1,9 @@
-let number =2;
-for(let i=0;i<=10;i++){
-    console.log(number *i);
+let number = 2;
+for (let i = 0; i <= 10; i++) {
+  console.log(number * i);
 }
 
-const person = {fname:"John", lname:"Doe", age:25};
+const person = { fname: "John", lname: "Doe", age: 25 };
 
 let text = "";
 for (let x in person) {
@@ -20,9 +20,9 @@ for (let x in numbers) {
 console.log(txt);
 
 const numbers1 = [45, 4, 9, 16, 25];
-let value =0;
-for(let i =0;i<numbers1.length;i++){
-    value =+ numbers1[i];
+let value = 0;
+for (let i = 0; i < numbers1.length; i++) {
+  value = + numbers1[i];
 }
 console.log(value);
 
@@ -38,20 +38,20 @@ let language = "JavaScript";
 
 let textCheck = "";
 for (let x of language) {
-textCheck += x;
+  textCheck += x;
 }
 
 console.log(textCheck);
 
-let j =1;
+let j = 1;
 while (j < 10) {
-    console.log("The number is " + j);
-    j++;
-  }
+  console.log("The number is " + j);
+  j++;
+}
 
-  do {
-    console.log("The number is " + j);
-    j--;
-  }
-  while (j >0);
+do {
+  console.log("The number is " + j);
+  j--;
+}
+while (j > 0);
 

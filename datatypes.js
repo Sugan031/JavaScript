@@ -25,13 +25,13 @@ let float2 = 0.2;
 console.log(`Float value is ${float1 + float2}`);
 console.log(number1);
 console.log(number2);
-console.log(number1+number2);
+console.log(number1 + number2);
 
 let number3 = 9007199254740991;
 console.log(number3);
 console.log(typeof number3);
 
-let number4 =67n;
+let number4 = 67n;
 console.log(number4);
 console.log(typeof number4);
 
@@ -45,24 +45,24 @@ console.log(x);
 //Arithmetic operations with string and number
 console.log("*********************************************");
 
-console.log("10"+"10");//1010
-console.log("10"+10);//1010
-console.log(10+"10");//1010
-console.log("10"-2);//8
-console.log(10-"2");//8
-console.log("10"-"2");//8
-console.log("10"*"2");//20
-console.log("10"*2);//20
-console.log(10*"2");//20
-console.log("10"/"2");//5
-console.log("10"/2);//5
-console.log(10/"2");//5
+console.log("10" + "10");//1010
+console.log("10" + 10);//1010
+console.log(10 + "10");//1010
+console.log("10" - 2);//8
+console.log(10 - "2");//8
+console.log("10" - "2");//8
+console.log("10" * "2");//20
+console.log("10" * 2);//20
+console.log(10 * "2");//20
+console.log("10" / "2");//5
+console.log("10" / 2);//5
+console.log(10 / "2");//5
 
-console.log("10"/"apple");//NaN
-console.log("10"*"apple");//NaN
-console.log("10"-"apple");//NaN
+console.log("10" / "apple");//NaN
+console.log("10" * "apple");//NaN
+console.log("10" - "apple");//NaN
 
-console.log(45-NaN);//NaN
+console.log(45 - NaN);//NaN
 
 
 
@@ -71,11 +71,11 @@ console.log("*********************************************");
 
 let bool1 = 5;
 let bool2 = 5;
-let bool3 =6;
+let bool3 = 6;
 let name1;
 
-console.log((bool1==bool2));//false
-console.log((bool2==bool3));//false
+console.log((bool1 == bool2));//false
+console.log((bool2 == bool3));//false
 console.log(Boolean(name1)); //false
 
 console.log(Boolean(1)); //true
@@ -100,11 +100,11 @@ console.log(value);
 console.log(typeof value);
 
 //object
-const franchise={
-    teamName: "CSK", 
-    teamWorth: "75Cr", 
+const franchise = {
+    teamName: "CSK",
+    teamWorth: "75Cr",
     CaptainName: "Dhoni",
-    playersCount:25 
+    playersCount: 25
 };
 
 console.log(franchise.CaptainName);
