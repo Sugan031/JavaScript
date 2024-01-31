@@ -24,7 +24,6 @@ console.log(string1.slice(-10));//omegrante
 console.log(string1.slice(-10, -2)); //omegrana
 
 //substring() is similar to slice() but values less than 0 is considered as 0 in this
-
 console.log(string1.substring(4));//grante
 console.log(string1.substring(4, 10)); //granat
 console.log(string1.substring(-10)); //Pomegranate
