@@ -25,7 +25,6 @@ person.lang = "en";
 document.write(person.lang);
 
 const sample_1 = {
-    value :435
 }
 
 Object.defineProperty(sample_1, "property1", {
@@ -39,13 +38,6 @@ Object.defineProperty(sample_1, "property1", {
 
 console.log(sample_1.property1);
 
-console.log(sample_1.value);
-for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        
-    }
-}
 
 
 

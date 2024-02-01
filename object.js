@@ -27,11 +27,14 @@ function objectShows(genre, episodes, ott) {
 
     this.increaseEpisodes = increaseEpisodes;
 }
-function increaseEpisodes(episodesNumbers) {
-    this.episodes = episodesNumbers;
-}
+    function increaseEpisodes(episodesNumbers) {
+        this.episodes = episodesNumbers;
+    }
 
-showDetails = new objectShows("Crime", 10, "Netflix");
+
+    
+
+let showDetails = new objectShows("Crime", 10, "Netflix");
 
 showDetails.increaseEpisodes(20);
 for (const key in employeeDetails) {

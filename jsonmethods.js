@@ -5,6 +5,7 @@ let text = '{"employees":[' +
 
 const obj = JSON.parse(text);
 console.log(obj);
+console.log(obj["firstname"]);
 
 let arraySample = '{"Students" :["Sanjeev","Sugan","Harish"]}';
 
