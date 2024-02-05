@@ -63,7 +63,7 @@ async function doChores() {
 
         console.log("You completed all the chores");
     }
-    catch(error) {
+    catch (error) {
         console.error(error);
     }
 }
