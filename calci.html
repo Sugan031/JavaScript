@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div style="border: 1px solid black; display: inline-block; width: 110px; height: 50px;" id="inputs">
+
+    </div>
+    <div id="calc">
+
+        <input type="submit" name="clearall" value="AC" onclick="ClearAll()">
+        <input type="submit" name="clear" value="C" onclick="ClearOne()">
+        <input type="submit" name="division" value="/" onclick="writeValue('/')">
+        <br><br>
+        <input type="submit" name="one" value="1" onclick="writeValue('1')">
+        <input type="submit" name="two" value="2" onclick="writeValue('2')">
+        <input type="submit" name="three" value="3" onclick="writeValue('3')">
+        <input type="submit" name="multiple" value="x" onclick="writeValue('*')">
+        <br><br>
+        <input type="submit" name="four" value="4" onclick="writeValue('4')">
+        <input type="submit" name="five" value="5" onclick="writeValue('5')">
+        <input type="submit" name="six" value="6" onclick="writeValue('6')">
+        <input type="submit" name="subtraction" value="-" onclick="writeValue('-')">
+        <br><br>
+        <input type="submit" name="seven" value="7" onclick="writeValue('7')">
+        <input type="submit" name="eight" value="8" onclick="writeValue('8')">
+        <input type="submit" name="nine" value="9" onclick="writeValue('9')">
+        <input type="submit" name="addition" value="+" onclick="writeValue('+')">
+        <br><br>
+        <input type="submit" name="Zero" value="0" onclick="writeValue('0')">
+        <input type="submit" name="dot" value="." onclick="writeValue('.')">
+        <input type="submit" name="equals" value="=" onclick="showAnswer()">
+
+    </div>
+
+    <script src="./Calculator.js"></script>
+</body>
+
+</html>
