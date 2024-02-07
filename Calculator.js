@@ -17,7 +17,7 @@ function showAnswer(){
 
 
 function ClearAll(){
-    document.getElementById("inputs").innerText ="";
+    document.getElementById("inputs").innerText = "";
 }
 
 function ClearOne(){
